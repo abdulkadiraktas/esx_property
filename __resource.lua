@@ -7,6 +7,7 @@ version '1.0.4'
 server_scripts {
 	'@es_extended/locale.lua',
 	'@mysql-async/lib/MySQL.lua',
+	'locales/tr.lua',
 	'locales/de.lua',
 	'locales/br.lua',
 	'locales/en.lua',
@@ -21,6 +22,7 @@ server_scripts {
 
 client_scripts {
 	'@es_extended/locale.lua',
+	'locales/tr.lua',
 	'locales/de.lua',
 	'locales/br.lua',
 	'locales/en.lua',
